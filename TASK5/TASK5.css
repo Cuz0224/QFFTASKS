@@ -1,0 +1,104 @@
+img{
+    height: auto;
+    width: auto;
+    height: 10%;
+}
+
+#top{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    display:flex;
+    justify-content: end;
+    background-color: rgb(49, 49, 49);  
+}
+
+#logo{
+    position: absolute;
+    left: 10px;
+    top: 3px;
+    width: 45px;
+    height: 45px;
+}
+
+
+.topa{
+    float: left;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+
+.left{
+    margin-right: 230px;
+    margin-left: 30px;
+    margin-top: 80px;
+}
+
+#firstPassage{
+    background-color: white;
+    margin: 20px;
+    border-style: outset;
+    padding: 30px;
+    padding-top: 10px;
+}
+
+#secondPassage{
+    background-color: white;
+    margin: 20px;
+    border-style: outset;
+    padding: 30px;
+    padding-top: 10px;
+}
+
+#thirdPassage{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+    margin: 20px;
+    border-style: outset;
+    padding: 30px;
+    padding-top: 10px;
+}
+.third{
+    height: 100px;
+    width: 100px;
+}
+
+
+#fourthPassage{
+    background-color: white;
+    margin: 20px;
+    border-style: outset;
+    padding: 30px;
+    padding-top: 10px;
+}
+
+
+.right{
+    float: right;
+    width: 200px;
+    background-color: white;
+    margin-right: 5px;
+    border-style: outset;
+    padding: 10px;
+}
+
+#button{
+    color: white;
+    background-color: royalblue;
+    width: 193px;
+    height: 30px;
+}
+
+#last{
+    background-color: rgb(49, 49, 49);  
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
