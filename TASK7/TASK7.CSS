@@ -1,0 +1,314 @@
+#top{
+    width: 100%;
+    height: 50px;
+    background: white;
+}
+#top ul li {
+    padding: 10px 5px;
+}
+#top ul li:hover{
+    border-bottom:solid 1px red ;
+}  
+.img1{
+    width: 40px;
+    height: 40px;
+}
+
+#img1{
+    margin-left: 20px;
+}
+
+#topleft{
+    float: left;
+}
+
+a{
+    text-decoration:none;
+    color:#000000;
+}
+
+.topn{
+    margin: 10px;
+    font-size: small;
+    float: right;
+    
+}
+
+
+#top1{
+    color: red;
+    margin-right: 50px;
+}
+
+#top6{
+    color: red;
+}
+
+
+
+
+#firstPart{
+    width: 100%;
+    height: 600px;
+    background: url("JPG2.jpg");   
+    background-size: 100% 100%;
+}
+
+#part1{
+    padding-top: 230px;
+    padding-left: 80px;
+}
+
+#button{
+    background-color: red;
+    width: 250px;
+    height: 30px;
+}
+
+#secondpart{
+    display: flex;
+    height: 200px;
+    width: 100%;
+}
+
+#part21{
+    margin: 20px;
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+#img2{
+    margin-left: 59px;
+}
+
+#part22{
+    margin: 20px;
+    margin-right: 40px;
+    margin-left: 30px;
+    
+}
+
+#img3{
+    margin-left: 59px;
+}
+
+#part23{
+    margin: 20px;
+    margin-right: 40px;
+    margin-left: 30px;
+}
+
+#img4{
+    margin-left: 59px;
+}
+
+#part24{
+    margin: 20px;
+    margin-right: 40px;
+    margin-left: 30px;
+}
+
+#img5{
+    margin-left: 59px;
+}
+
+#thirdPart{
+    height: 300px;
+    width: 100%;
+    background-color: lightgray;
+}
+
+#part31{
+    padding: 100px;
+    text-align: center;
+}
+
+#fourthPart{
+    height: 290px;
+    width: 100%;
+    background: url("JPG2.jpg");
+}
+
+#part41{
+    text-align: center;
+    padding-top: 30px;
+}
+
+#part42{
+    display: flex;
+    flex-direction: row;
+}
+
+#country{
+    margin-left: 100px;
+    margin-top: 70px;
+    height: 30px;
+    width: 170px;
+}
+
+#shen{
+    margin-left: 40px;
+    margin-top: 70px;
+    height: 30px;
+    width: 170px;
+}
+
+#city{
+    margin-left: 40px;
+    margin-top: 70px;
+    height: 30px;
+    width: 170px;
+}
+
+#button41{
+    margin-left: 40px;
+    margin-top: 70px;
+    height: 30px;
+    width: 170px;
+    background-color: red;
+}
+
+#fifthPart{
+    display: flex;
+    background-color: lightyellow;
+}
+
+.part5n{
+    margin: 50px;
+    margin-left: 92px;
+    margin-right: 92px;
+}
+
+#sixthPart{
+    height: 360px;
+    width: 100%;
+    display: flex;
+}
+
+#part61{
+    background: url("JPG2.jpg");
+    text-align: center;
+    width: 900px;
+    padding-top: 60px;
+    color: white;
+}
+
+#part62{
+    width: 300px;
+    text-align: center;
+    font-size: x-small;
+    line-height: 30px;
+    padding:20px;
+    padding-top: 60px;
+    background-color: lightyellow;
+}
+
+#button61{
+    width: 100px;
+    height: 30px;
+    background-color: red;
+}
+
+#seventhPart{
+    height: 390px;
+    display: flex;
+}
+
+#part71{
+    background-color: red;
+    text-align: center;
+    width: 33.33%;
+    height: 250px;
+    padding-top: 140px;
+}
+
+#button71{
+    background-color: red;
+    width: 100px;
+    height: 30px;
+    border-color: white;
+}
+
+#part72{
+    background-color: white;
+    text-align: center;
+    width: 33.33%;
+    height: 250px;
+    padding-top: 140px;
+}
+
+#button72{
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    border-color: red;
+}
+
+#part73{
+    background: url("JPG2.jpg");
+    width: 33.33%;
+    height: 390px;
+}
+
+#eighthPart{
+    text-align: center;
+    height: 220px;
+    padding-top: 100px;
+}
+
+#ninthPart{
+    height: 300px;
+    display: flex;
+}
+
+#part91{
+    width: 33.33%;
+    padding-left: 50px;
+}
+
+.text{
+    margin: 20px;
+    background-color: lightblue;
+    border-color: lightblue;
+}
+
+#part91{
+    padding-left: 110px;
+}
+
+#button91{
+    width: 390px;
+    height: 30px;
+    background-color: lightblue;
+    border-color: lightblue;
+    margin-left: 25px;
+
+}
+
+#tenthPart{
+    height:240px ;
+    background-color: navy;
+    text-align: center;
+    padding-top: 80px;
+    color: white;
+}
+
+
+#lastPart{
+    height: 50px;
+    background-color: black;
+}
+
+#bleft{
+    float: left;
+    color: white;
+    margin-left: 20px;
+    padding-top: 15px;
+}
+
+#bright{
+    float: right;
+    color: white;
+    margin-right: 20px;
+    padding-top: 15px;
+}

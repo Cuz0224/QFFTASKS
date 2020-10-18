@@ -1,0 +1,131 @@
+#first-row{
+    background-color: black;
+    color: white;
+}
+
+tr:nth-child(odd){
+    background-color:lightgray;
+}
+
+.red{
+    color: red;
+}
+
+tr:nth-child(2){
+    color:red;
+}
+
+tr:nth-child(3){
+    color:red;
+}
+
+tr:nth-child(4){
+    color:red;
+}
+
+#input{
+    margin: 20px;
+    margin-left: 300px;
+    width: 200px;
+    height: 20px;
+}
+
+#input:hover{
+    transform: scaleX(1.2);
+    border-color: royalblue;
+}
+
+.slide {
+    position: relative;
+    margin: auto;
+    width: 600px;
+    height: 200px;
+    text-align: center;
+    font-family: Arial;
+    color: #FFF;
+    overflow: hidden;
+  }
+  
+  .slide ul {
+    margin: 10px 0;
+    padding: 0;
+    width: calc(600px * 3);
+    transition: all 0.5s;
+  }
+  
+  .slide li {
+    float: left;
+    width: 600px;
+    height: 200px;
+    list-style: none;
+    line-height: 200px;
+    font-size: 36px;
+  }
+  
+  .slide li:nth-child(1) {
+    background: lightgreen;
+  }
+  
+  .slide li:nth-child(2) {
+    background: lightseagreen;
+  }
+  
+  .slide li:nth-child(3) {
+    background: lightsalmon;
+  }
+  
+  .slide input[name="sildeInput"] {
+    display: none;
+  }
+  
+  .slide label[for^="sildeInput"] {
+    position: absolute;
+    top: 170px;
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+    line-height: 20px;
+    color: #FFF;
+    background: lightblue;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  .slide label[for="sildeInput1"] {
+    left: 0;
+  }
+  
+  .slide label[for="sildeInput2"] {
+    left: 30px;
+  }
+  
+  .slide label[for="sildeInput3"] {
+    left: 60px;
+  }
+  
+  #sildeInput1:checked~ul {
+    margin-left: 0;
+  }
+  
+  #sildeInput2:checked~ul {
+    margin-left: -600px;
+  }
+  
+  #sildeInput3:checked~ul {
+    margin-left: -1200px;
+  }
+  
+  #sildeInput1:checked~label[for="sildeInput1"] {
+      color: #000;
+      background: rgb(255, 255, 255);
+  }
+  
+  #sildeInput2:checked~label[for="sildeInput2"] {
+      color: #000;
+      background: #fff;
+  }
+  
+  #sildeInput3:checked~label[for="sildeInput3"] {
+      color: #000;
+      background: #fff;
+  }
